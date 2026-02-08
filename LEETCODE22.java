@@ -6,7 +6,6 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             // Check if the current number already exists in the HashMap
             if (map.containsKey(nums[i])) {
-
                 // Check if the distance between indices is <= k
                 if (Math.abs(i - map.get(nums[i])) <= k) {
                     return true;
