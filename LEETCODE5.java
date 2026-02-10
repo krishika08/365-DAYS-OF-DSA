@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class LEETCODE15 {
-   
     public int[] productExceptSelf(int[] nums) {
         
         int[]result = new int [nums.length];
@@ -19,4 +18,5 @@ public class LEETCODE15 {
          return result;
     }
 }
+
 
