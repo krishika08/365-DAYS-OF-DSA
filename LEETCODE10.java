@@ -12,7 +12,6 @@ class Solution {
             else {
                 return new int [] {i+1 , j+1};
             }
-            
         }
         return null;
     }
