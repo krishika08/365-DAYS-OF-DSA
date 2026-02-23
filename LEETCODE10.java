@@ -9,6 +9,7 @@ class Solution {
                else if(numbers[i] + numbers[j] > target){
                 j--;
             }
+                   
             else {
                 return new int [] {i+1 , j+1};
             }
